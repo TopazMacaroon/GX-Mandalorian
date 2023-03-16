@@ -1,0 +1,184 @@
+{
+    "manifest_version": 3,
+    "name": "Mandalorian",
+    "description": "Welcome to the rim, Mandalorian. For this mod, you will only need your knowledge.",
+    "version": "1.0",
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "developer":
+    {
+        "name": "TopazMacaroon"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "wallpaper":
+            {
+                "dark":
+                {
+                    "image": "wallpaper/Mandalorian.jpg",
+                    "text_color": "#634901",
+                    "text_shadow": "#574b2b",
+                    "first_frame": "wallpaper/Mandalorian.jpg"
+                },
+                "light":
+                {
+                    "image": "wallpaper/Mandalorian.jpg",
+                    "text_color": "#fce5a4",
+                    "text_shadow": "#e8e0ca",
+                    "first_frame": "wallpaper/Mandalorian.jpg"
+                }
+            },
+            "background_music":
+            [
+                "music/layer1Ori.mp3",
+                "music/layer2Lofi.mp3",
+                "music/layer3Epic.mp3"
+            ],
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "sounds/keyboard1.mp3",
+                    "sounds/keyboard8.mp3",
+                    "sounds/keyboard2.mp3",
+                    "sounds/keyboard7.mp3",
+                    "sounds/keyboard3.mp3",
+                    "sounds/keyboard6.mp3",
+                    "sounds/keyboard4.mp3",
+                    "sounds/keyboard5.mp3"
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/spacebar.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/spacebar.mp3"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/backspace.mp3"
+                ]
+            },
+            "browser_sounds":
+            {
+                "SWITCH_TOGGLE":
+                [
+                    "sounds/FeatureSwitchON.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sounds/CloseTab.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "sounds/NewTab.mp3"
+                ],
+                "HOVER":
+                [
+                    "sounds/Hover.mp3"
+                ],
+                "HOVER_UP":
+                [
+                    "sounds/Hover.mp3"
+                ],
+                "CLICK":
+                [
+                    "sounds/spacebar.mp3"
+                ],
+                "LIMITER_ON":
+                [
+                    "sounds/FeatureSwitchON.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sounds/FeatureSwitchOFF.mp3"
+                ],
+                "IMPORTANT_CLICK":
+                [
+                    ""
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sounds/FeatureSwitchON.mp3"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sounds/FeatureSwitchOFF.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    ""
+                ],
+                "TAB_SLASH":
+                [
+                    ""
+                ]
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 24,
+                        "s": 0,
+                        "l": 56
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 39,
+                        "s": 24,
+                        "l": 56
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                       "h": 24,
+                        "s": 0,
+                        "l": 56
+                    },
+                    "gx_secondary_base":
+                    {
+                       "h": 39,
+                        "s": 24,
+                        "l": 56
+                    }
+                }
+            },
+            "page_styles":
+            [
+                {
+                    "matches":
+                    [
+                        "https://*.discord.com/*"
+                    ],
+                    "css":
+                    [
+                        "css/main.theme.css",
+                        "css/changecolors.css"
+                    ]
+                }
+            ],
+            "shaders":
+            {
+                "Cyberdeck":
+                {
+                    "animation":
+                    {
+                        "duration": 120,
+                        "steps": 3600
+                    },
+                    "path": "shaders/cyberdeck.txt"
+                }
+            }
+        }
+    }
+}
